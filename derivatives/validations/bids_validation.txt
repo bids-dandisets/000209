@@ -2,7 +2,7 @@
 		SourceDatasets
 		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
 Valid keys in each object include `"URL"`, `"DOI"` (see
-[URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)), and
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
@@ -259,11 +259,11 @@ For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond t
 		289 more files with the same issue
 
 		CogAtlasID
-		/sub-1001372857/ses-1003355399/icephys/sub-1001372857_ses-1003355399_icephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-1001372857/ses-1003355399/icephys/sub-1001372857_ses-1003355399_icephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
-		/sub-1000181910/ses-1001490352/icephys/sub-1000181910_ses-1001490352_icephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-1000181910/ses-1001490352/icephys/sub-1000181910_ses-1001490352_icephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
@@ -271,10 +271,10 @@ Task term.
 		289 more files with the same issue
 
 		CogPOID
-		/sub-1001372857/ses-1003355399/icephys/sub-1001372857_ses-1003355399_icephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-1001372857/ses-1003355399/icephys/sub-1001372857_ses-1003355399_icephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
-		/sub-1000181910/ses-1001490352/icephys/sub-1000181910_ses-1001490352_icephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-1000181910/ses-1001490352/icephys/sub-1000181910_ses-1001490352_icephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
 
@@ -304,3 +304,4 @@ regardless of their type (for example, `2400`).
           2465 Files, 1.8 MB                                          microephys           
           67 - Subjects 291 - Sessions                                                     
 
+	If you have any questions, please post on https://neurostars.org/tags/bids.
